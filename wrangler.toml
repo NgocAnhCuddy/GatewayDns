@@ -1,0 +1,9 @@
+name = "zt-console"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-01"
+
+# Biến môi trường KHÔNG bí mật có thể để ở đây nếu muốn (ví dụ mặc định dev).
+# CF_API_TOKEN và CF_ACCOUNT_ID nên đặt qua:
+#   - `wrangler pages secret put CF_API_TOKEN` (CLI), hoặc
+#   - Cloudflare Dashboard > Pages > (project) > Settings > Environment variables
+# KHÔNG commit token thật vào file này hay vào git.
